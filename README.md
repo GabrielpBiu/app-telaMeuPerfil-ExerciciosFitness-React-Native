@@ -501,6 +501,8 @@ Uma relação com todos os links externos usados nesse README:
 * [https://www.mundodevops.com/](https://www.mundodevops.com/) 
 * [https://docs.rocketseat.dev/ambiente-react-native/introducao](https://docs.rocketseat.dev/ambiente-react-native/introducao) - Tutorial instalação ambiente React-Native;
 * [https://github.com/oblador/react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) - Instalação de Icones;
-* [https://fontawesome.com/icons?d=gallery](https://fontawesome.com/icons?d=gallery) - Lista de icones da Biblioteca "Font Awesome".
-
+* [https://fontawesome.com/icons?d=gallery](https://fontawesome.com/icons?d=gallery) - Lista de icones da Biblioteca "Font Awesome";
+* [https://befonts.com/montserrat-font-family.html
+](https://befonts.com/montserrat-font-family.html
+) - Fonte para textos utilizada.
 
