@@ -24,7 +24,7 @@ Desenvolvi o mesmo no UBUNTU 18.4 e foi focado em testes no Android.
 
 A versão do React-Native usada foi 0.59.8.
 
-Utilizo um arquivo 'json/data.json' de onde eu pego as informações do App.
+Utilizo um arquivo 'json/data.json' de onde eu retiro as informações do App.
 
 Paleta de cores usadas no App:
 - ![#FEFFFF (texto)](https://placehold.it/15/FEFFFF/000000?text=+) `#FEFFFF (texto)`
@@ -57,10 +57,17 @@ Logo após, escreva em seu terminal, ainda no diretório do projeto:
 react-native link
 ```
 
-Pronto agora já pode abrir o mesmo em seu Emulador Android ou em um celular Android:
+Agora já pode abrir o mesmo em seu Emulador Android ou em um celular Android:
 
 ```
 react-native run-android
+```
+
+E não podemos esquecer de iniciar o server do React-Native, ele precisa ficar aberto para atualizar as modificações feitas na aplicação:
+
+
+```
+react-native start
 ```
 
 
