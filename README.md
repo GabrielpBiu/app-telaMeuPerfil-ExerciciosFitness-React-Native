@@ -36,7 +36,7 @@ Paleta de cores usadas no App:
 - ![#323C47](https://placehold.it/15/323C47/000000?text=+) `#323C47 `
 
 Fonte usada:
-- ![Montserrat](https://befonts.com/montserrat-font-family.html) (Variações).
+- [Montserrat](https://befonts.com/montserrat-font-family.html) (Variações).
 
 ### Instalações
 Se você é novo em react-native e ainda não tem o seu ambiente configurado, pare por aqui e acesse [esse link](https://docs.rocketseat.dev/ambiente-react-native/introducao) e siga os passos conforme seu dispositivo a fim de estar pronto para trabalhar com o React-Native.
