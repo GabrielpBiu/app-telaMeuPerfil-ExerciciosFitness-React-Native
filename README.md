@@ -18,7 +18,7 @@ Como proposto apenas desenvolvi a tela "Meu Perfil".
 - [Links-Externos](#links-externos)
 
 ## Iniciando
-Quero deixar claro que busco a cada dia melhorar os meus códigos e soluções, através da troca de conhecimentos, então espero que algumas delas sirvam a vocês e estarei mostrando o passo a passo de como implementei cada uma nessa aplicação.
+Quero deixar claro que busco a cada dia melhorar os meus códigos e soluções, através da troca de conhecimentos, então espero que algumas delas sejam úteis a vocês e estarei mostrando o passo a passo de como implementei cada uma nessa aplicação.
 
 Desenvolvi o mesmo no UBUNTU 18.4 e foi focado em testes no Android.
 
