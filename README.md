@@ -15,6 +15,7 @@ Como proposto apenas desenvolvi a tela "Meu Perfil".
   - [Header](#header)
   - [Atividades (View-Post)](#atividades-view-post)
   - [Exercicios (View-Post)](#exercicios-view-post)
+- [Links-Externos](#links-externos)
 
 ## Iniciando
 Quero deixar claro que busco a cada dia melhorar os meus códigos e soluções, através da troca de conhecimentos, então espero que algumas delas sirvam a vocês e estarei mostrando o passo a passo de como implementei cada uma nessa aplicação.
