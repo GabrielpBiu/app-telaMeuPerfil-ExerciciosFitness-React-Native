@@ -41,9 +41,9 @@ Fonte usada:
 ### Instalações
 Se você é novo em react-native e ainda não tem o seu ambiente configurado, pare por aqui e acesse [esse link](https://docs.rocketseat.dev/ambiente-react-native/introducao) e siga os passos conforme seu dispositivo a fim de estar pronto para trabalhar com o React-Native.
 
-Passarei o passo a passo da instalação que usei para o App, lembrando que o fiz em Linux por isso necessitei do arquivo "local.properties" na pasta Android do projeto para direcionar a sdk, no caso de Windows apenas crie a variavel.
+Passarei o passo a passo da instalação que usei para o App, lembrando que o fiz em Linux por isso necessitei do arquivo "local.properties" na pasta Android do projeto para direcionar a sdk, no caso de Windows apenas crie a variável/patch.
 
-Para instalar a App no seu Android e poder modifica-la da sua forma, baixe os arquivos do mesmo e dentro da pasta do projeto com os arquivos, de o comando:
+Para instalar a App no seu Android e poder modificá-la da sua forma, baixe os arquivos do mesmo e dentro da pasta do projeto com os arquivos, de o comando:
 
 ```
 npm install
@@ -63,7 +63,7 @@ Agora já pode abrir o mesmo em seu Emulador Android ou em um celular Android:
 react-native run-android
 ```
 
-E não podemos esquecer de iniciar o server do React-Native, ele precisa ficar aberto para atualizar as modificações feitas na aplicação:
+E não podemos esquecer de iniciar o servidor do React-Native, ele precisa ficar aberto para atualizar as modificações feitas na aplicação:
 
 
 ```
@@ -71,7 +71,7 @@ react-native start
 ```
 
 
-Abaixo deixarei apenas uma relação das Dependencias (Modulos) usadas, caso necessite das mesma separadamente:
+Abaixo deixarei apenas uma relação das Dependencias (Módulos) usadas, caso necessite das mesma separadamente:
 
 ```
 npm install prop-types
@@ -163,10 +163,10 @@ class MeuPerfil extends Component {
 ```
 Ambos fazem a 'mágica' do App, através do SetState dentro do 'DidMount' conseguimos armazenar os dados do arquivo 'json' para uso futuro na aplicação, separei em dois 'dataSource' cada um para um objeto do arquivo 'data.json'.
 
-Adicionei também um states de carregamento, caso contenha bastante dados no arquivo 'json', assim evita que o usuario pensse que a aplicação travou.
+Adicionei também um states de carregamento, caso contenha bastante dados no arquivo 'json', assim evita que o usuário pense que a aplicação travou.
 
 
-Toda a parte que mostrarei a frente esta contido no arquivo 'MeuPerfil.js', nada impede de faze-las separadamente apenas optei pelo mesmo arquivo, darei o código de cada parte e seu Style e tentarei explicar da melhor maneira o que fiz.
+Toda a parte que mostrarei a frente esta contido no arquivo 'MeuPerfil.js', nada impede de fazê-las separadamente apenas optei pelo mesmo arquivo, darei o código de cada parte e seu Style e tentarei explicar da melhor maneira o que fiz.
 
 ### Imports
 Todos os imports usados na aplicação:
@@ -264,7 +264,7 @@ Header está com um estilo padrão usando o 'flex' em direção 'row' para deixa
 
 Adicionei uma borda somente na parte inferior através do 'borderBottom'.
 
-Com o 'TouchableOpacity' podemos direcionar os usuarios para os respectivos locais de cada icone, basta adicionar o 'onPress'.
+Com o 'TouchableOpacity' podemos direcionar os usuários para os respectivos locais de cada ícone, basta adicionar o 'onPress'.
 
 ### Atividades (View-Post)
 
@@ -333,11 +333,11 @@ Codigo:
 
 Usei o FlatList para renderizar os dados do 'data.json', item por item de cada objeto, dessa forma posso chamar apenas os dados dos quais necessito 'item.nomeAtributo', assim consigo exibir qualquer imagem usando o import do arquivo 'img.js' e o atributo com o nome da minha imagem ```'Imagens[item.imagem]'```.
 
-A variavel 'idAtividades++;' foi declarada anteriormente, apenas para que eu possa identificar as atividades, nada impede de a mesma ja ser um atributo do arquivo 'data.json' caso prefira. A variavel de identificação se fez necessaria, pois necessitava criar uma condição na qual o icone de Check apenas fosse exibido nos icones 1 e 3.
+A variavel 'idAtividades++;' foi declarada anteriormente, apenas para que eu possa identificar as atividades, nada impede de a mesma ja ser um atributo do arquivo 'data.json' caso prefira. A variável de identificação se fez necessária, pois necessitava criar uma condição na qual o icone de Check apenas fosse exibido nos icones 1 e 3.
 
 Outra parte interessante aqui foi o uso da coloração degrade através do ```<LinearGradient>``` [(import)](#imports)  onde indicamos o inicio e fim do degrade, inclusive pode adicionar mais uma cor ao meio.
 
-O 'KeyEtrator' serve para indicar as Key ou Id do flatList, como eu usei uma variavel e não peguei nenhuma id de outro lugar apenas o declarei, porém vazio.
+O 'KeyEtrator' serve para indicar as Key ou Id do flatList, como eu usei uma variável e não peguei nenhuma id de outro lugar apenas o declarei, porém vazio.
 
 ### Exercicios (View-Post)
 
@@ -470,11 +470,11 @@ Nessa parte ja usei um pouco a mais de soluções, primeiramente o código:
 
 ```
 
-Nessa ultima parte, o que acredito ser importante ressaltar é o uso das condições para completar os horarios dos Exercicios de forma que o tempo seja informado em horas se for um valor exato, caso contrário, em minutos.
+Nessa ultima parte, o que acredito ser importante ressaltar é o uso das condições para completar os horários dos Exercícios de forma que o tempo seja informado em horas se for um valor exato, caso contrário, em minutos.
 
-Para isso criei uma variavel local chamada 'time' e atribui a mesma o valor do tempo em minutos já fornecido pelo 'data.json' e em seguida dividi o valor por 60, para encontrarmos as horas exatas.
+Para isso criei uma variável local chamada 'time' e atribui a mesma o valor do tempo em minutos já fornecido pelo 'data.json' e em seguida dividi o valor por 60, para encontrarmos as horas exatas.
 
-Na condição verifiquei se as divisões por 60 eram exatas, para só assim exibir o valor da variavel 'time' para o usuario, assim:
+Na condição verifiquei se as divisões por 60 eram exatas, para só assim exibir o valor da variável 'time' para o usuário, assim:
 
 ```
 {item.time % '60' == 0 ?
@@ -499,7 +499,7 @@ backgroundColor: '#19B996', opacity: 1.0, borderColor: '#19B996' }]}>ONTEM</Text
 : <Text style={styles.diaTextExercicios}>ONTEM</Text>}
 ```
 
-Se o atributo 'item.when' for 'today' a cor do indicador muda, o mesmo para 'yesterday' e caso esteja vazio mantem o estilo padrão.
+Se o atributo 'item.when' for 'today' a cor do indicador muda, o mesmo para 'yesterday' e caso esteja vazio mantêm o estilo padrão.
 
 ## Links Externos
 
@@ -508,8 +508,8 @@ Uma relação com todos os links externos usados nesse README:
 * [https://www.mundodevops.com/](https://www.mundodevops.com/) 
 * [https://docs.rocketseat.dev/ambiente-react-native/introducao](https://docs.rocketseat.dev/ambiente-react-native/introducao) - Tutorial instalação ambiente React-Native;
 * [https://github.com/oblador/react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) - Instalação de Icones;
-* [https://fontawesome.com/icons?d=gallery](https://fontawesome.com/icons?d=gallery) - Lista de icones da Biblioteca "Font Awesome";
+* [https://fontawesome.com/icons?d=gallery](https://fontawesome.com/icons?d=gallery) - Lista de ícones da Biblioteca "Font Awesome";
 * [https://befonts.com/montserrat-font-family.html
 ](https://befonts.com/montserrat-font-family.html
-) - Fonte para textos utilizada.
+) - Fonte dos textos utilizados.
 
