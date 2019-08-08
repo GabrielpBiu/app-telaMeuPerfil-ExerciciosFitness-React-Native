@@ -1,4 +1,4 @@
-# Tela Perfil - App - Sketch - Exercicios Fisicos Fitness (MundoDevops) - React-Native
+# Tela Perfil - App - Exercicios Fisicos Fitness (MundoDevops) - React-Native
 <p align="center">
 <img src="https://firebasestorage.googleapis.com/v0/b/naoapaga-d8a12.appspot.com/o/Screenshot1_App-Exercicios-Fitness.png?alt=media&token=2d472b4e-21c0-49c4-a575-c1777e42eb65" width="200" height="350" hspace="20"/><img src="https://firebasestorage.googleapis.com/v0/b/naoapaga-d8a12.appspot.com/o/Screenshot2_App-Exercicios-Fitness.png?alt=media&token=9a071174-9ad2-419a-86db-2268a72c2c15" width="200" height="350" />
 </p>
